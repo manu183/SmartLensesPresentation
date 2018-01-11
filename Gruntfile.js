@@ -105,7 +105,7 @@ module.exports = function(grunt) {
 		zip: {
 			bundle: {
 				src: [
-					'index.html',
+					'AT.html',
 					'css/**',
 					'js/**',
 					'lib/**',
