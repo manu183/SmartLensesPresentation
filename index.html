@@ -30,17 +30,17 @@
 			}
 
 			#notes {
-				font-size: small;
+				font-size: medium;
 				position:fixed;
 				bottom: 0%;
 				left: 0%;
 			}
 
 			#notes2 {
-				font-size: small;
+				font-size: medium;
 				position:fixed;
 				bottom: 0%;
-				left: 25%;
+				left: 40%;
 			}
 		</style>
 	</head>
@@ -51,9 +51,11 @@
 					<p>
 						Augmented Reality mit smarten Kontaktlinsen als Hilfsmittel für Sehgeschädigte
 					</p>
-					<div style="position:fixed; bottom: 20%; left:40%">
+					<br/>
+					<br/> 
+					<p>
 						Manuel Lang
-					</div>
+					</p>
 					<aside class="notes" data-markdown>
 						- Augmented Reality
 						- Was ist "smart"?
@@ -112,12 +114,15 @@
 						<h4>Probleme mit aktueller AR-Hardware</h4>
 						<div id="right">
 							<img src="https://i.imgur.com/Iqup5GR.jpg"/>
+							<p>Preis: 3.299,00€ / 5.489,00€</p>
 						</div>
 						<div id="left" data-markdown>
 							- Brille 
 								- stark eingeschränktes Sichtfeld 
 								- geringe Akkulaufzeit
 								- schwer
+								- teuer
+								- unkomfortabel
 							- Smartphone zu kleine Anzeige
 						</div>
 					</section>
@@ -132,6 +137,7 @@
 							- unauffällig
 							- günstig
 							- leicht verträglich
+							- gut erforscht
 						</div>
 						<aside class="notes" data-markdown>
 							- unauffällig
@@ -139,10 +145,31 @@
 							- oft verwendet
 	        			</aside>
 					</section>
+					<section>
+						<h4>Was fehlt?</h4>
+						<div data-markdown>
+						- Alltagstaugliche AR-Hardware (mit Unterstützung für Blinde und Sehgeschädigte)
+							- unauffällig
+							- bezahlbar
+							- komfortabel
+						- Universelle Brillen / Kontaktlinsen (jede Entfernung)
+						- Also: AR-Kontaktlinsen?
+						</div>
+					</section>
 				</section>
 				<section>
 					<section>
 						<h3>Technische Herausforderungen</h3>
+					</section>
+					<section>
+						<h4>Wiederverwendbarkeit der Linsen</h4>
+						<div data-markdown>
+							- Bisher nur Einweglinsen realisierbar
+							- Trend: Verringern der Produktionskosten
+							- Werden Mehrweglinsen kommen?
+								- Reinigung
+								- Kabelloses Laden
+						</div>
 					</section>
 					<section>
 						<h4>Bio-Verträglichkeit der Linsen</h4>
@@ -204,7 +231,10 @@
 				</section>
 				<section>
 					<section>
-						<h3>Aktueller Stand</h3>
+						<h3>Aktueller Stand*</h3>
+						<div id="notes">
+							* hier handelt es sich meist um reine Proof-of-Concept Lösungen, die noch nicht marktreif sind
+						</div>
 						<aside class="notes" data-markdown>
 							- 3 Arten
 							- Biologische Informationen
@@ -214,13 +244,17 @@
 					</section>
 					<section>
 						<p>Erfassen biologischer Informationen</p>
+						<p style="color:gray">Sichtkorrektur</p>
+						<p style="color:gray">Augmented Reality</p>
 					</section>
 					<section>
 						<h4>Verily (Alphabet)</h4>
 						<div id="left" data-markdown>
-							- Messen von Blutzucker
+							- Messen von Blutzucker durch Tränenflüssigkeit
 							- 415 Millionen Menschen leiden an Diabetes
-							- Tränenflüssigkeit statt Blut
+							- $800M Investion 2017
+							- 2017 angekündigte Tests fanden nicht statt
+							- Kosten: $200 - $300 (x2)
 						</div>
 						<div id="right">
 							<img src="https://static.giga.de/wp-content/uploads/2014/01/Hand-holding-zoomed-in1.jpg"/>
@@ -233,29 +267,41 @@
 	        			</aside>
 					</section>
 					<section>
+						<h4>Medella Health</h4>
+						<div data-markdown>
+							- Kanadisches Startup
+							- Herstellungskosten ~ $25
+							- $1.4M Investition 2017
+					</section>
+					<section>
 						<h4>Korea Institute of Science and Technology (KIST)</h4>
 						<div id="right">
 							<img src="http://www.businesskorea.co.kr/sites/default/files/field/image/diabetes-analyzing%20contact%20lenses.jpg"/>
 						</div>
 						<div id="left" data-markdown>
-							- ähnlich wie Verily
-							- zusätzlich Diagnose von Diabetes
+							- Ähnlich wie Verily und Medella Health
+							- Zusätzlich Diagnose von Diabetes
 						</div>
 					</section>
 					<section>
-						<p>SensiMed</p>
-						<div id="right">
+						<h4>SensiMed</h4>
+						<div id="right3">
 							<img src="http://new.swissmed.asia/wp-content/uploads/2015/01/patient_full_equipment.png"/>
 						</div>
-						<div id="left" data-markdown>
-							-
+						<div id="left7" data-markdown>
+							- Messen von Umfangsänderungen des Auges [1]
+							- Senden an Antenne [2]
+							- Übertragen durch Kabel an Aufzeichnungsgerät [3]
+							- Übertragen via Bluetooth an Computer [4]
 						</div>
 					</section>
 					<section>
+						<p style="color:gray">Erfassen biologischer Informationen</p>
 						<p>Sichtkorrektur</p>
+						<p style="color:gray">Augmented Reality</p>
 					</section>
 						<section>
-							<p>ColorMax</p>
+							<h4>ColorMax</h4>
 							<div data-markdown>
 								- Farbeindruck entsteht durch Wellenlänge des Lichts
 								![Wellenlänge von Farben](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Fraunhofer_lines_DE.svg/2000px-Fraunhofer_lines_DE.svg.png)
@@ -263,10 +309,12 @@
 							</div>
 						</section>
 					<section>
+						<p style="color:gray">Erfassen biologischer Informationen</p>
+						<p style="color:gray">Sichtkorrektur</p>
 						<p>Augmented Reality</p>
 					</section>
 					<section>
-						<p>eMacula</p>
+						<h4>eMacula</h4>
 						<div id="right">
 							<img src="http://media2.govtech.com/images/940*630/Innovega.jpg"/>
 						</div>
@@ -285,6 +333,20 @@
 						<h3>Ausblick</h3>
 					</section>
 					<section>
+						<h4>EPGLmed</h4>
+						<div id="right">
+							<img src="/Users/Manu/Desktop/epgl.png"/>
+						</div>
+						<div id="left" data-markdown>
+							- Aktuelle Patente u.a.
+								- Energieversorgung
+								- Sensoren
+								- Auflademethoden
+								- Stromkreise für smarte Kontaktlinsen
+								- Autofokusmechanismen (automatisches Scharfstellen auf Ziel)
+						</div>
+					</section>
+					<section>
 						<h4>Samsung</h4>
 						<div id="right">
 							<img src="https://i.amz.mshcdn.com/eQMn8h5JN8kg-uaB3hT42CjqwYQ=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F50430%2Fsamsung-smart-contact-lenses-patent.jpg"/>
@@ -301,9 +363,12 @@
 							<img src="https://cnet2.cbsistatic.com/img/_zHgBaXQqsNlZDm8aXy4KzusPnY=/fit-in/970x0/2016/05/03/1f422c2f-8e2a-49f9-a3da-feab60b85c63/sonylens.jpg"/>
 						</div>
 						<div id="left" data-markdown>
-							- Fotos per Wimpernschlag
+							- Fotos & Videos per Wimpernschlag
 							- Umwandeln der Energie von Liedschlägen
 							- Sensoren erkennen bewusstes Blinzeln
+							- Autofokus
+							- Automatische Belichtung
+							- Zoom-Funktion 
 						</div>
 					</section>
 					<section>
@@ -313,7 +378,7 @@
 						</div>
 						<div id="left" data-markdown>
 							- OS für IoT-Hardware
-							- hohe Leistung (1GHz x2)
+							- Hohe Leistung (1GHz x2)
 							- WLAN & Bluetooth
 							- Android Unterstützung
 							- Google Assistant auf Smart Displays
@@ -378,7 +443,7 @@
 							* ausgehend von vorgestellten Patenten
 						</div>
 						<div id="notes2">
-							** als Partner von EPGL
+							** als Investor bei EPGL
 						</div>
 					</section>
 				</section>
