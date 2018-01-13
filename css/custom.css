@@ -6,6 +6,14 @@
   z-index:-10;
 }
 
+#left8 {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:80%;
+  z-index:-10;
+}
+
 #left7 {
   left:-8.33%;
   text-align: left;
@@ -47,6 +55,15 @@
   text-align: right;
   z-index:-10;
   width:30%;
+}
+
+#right2 {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:20%;
 }
 
 @media print {
